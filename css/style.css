@@ -4,20 +4,22 @@
   grid-template-columns: 1fr 2fr;
 }
 body {
-	background-color: hsla(225, 100%, 25%, 0.4);
+	background-color: hsla(225, 100%, 25%, 0.2);
 }
 h1 {
-	font-size: 45px;
+	font-size: 50px;
 	color: hsla(325, 50%, 50%, 0.6);
 	font-family:  sans-serif;
 }
 
 h2 {
+	font-size: 30px;
 	font-style: cursive;
 	color: hsla(325, 50%, 50%, 0.6);
 	font-family:  sans-serif;
 }
 h3 {
+	font-size: 30px;
 	color: hsla(325, 50%, 50%, 0.6);
 }
 a {
@@ -25,6 +27,7 @@ a {
 	font-family:  sans-serif;
 }
 p {
+	font-size: 25px;
 	color: hsla(320, 50%, 50%, 0.6);
 }
 .intro {
