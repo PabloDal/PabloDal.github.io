@@ -1,38 +1,37 @@
 .grid {
-  border: 2px blue solid;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 body {
-	background-color: hsla(225, 100%, 25%, 0.2);
+	background-color: hsla(0, 100%, 25%, 0.9);
 }
 h1 {
 	font-size: 50px;
-	color: hsla(325, 50%, 50%, 0.6);
+	color: hsla(180, 50%, 50%, 0.2);
 	font-family:  sans-serif;
 }
 
 h2 {
 	font-size: 30px;
 	font-style: cursive;
-	color: hsla(325, 50%, 50%, 0.6);
+	color: hsla(180, 50%, 50%, 0.2);
 	font-family:  sans-serif;
 }
 h3 {
 	font-size: 30px;
-	color: hsla(325, 50%, 50%, 0.6);
+	color: hsla(180, 50%, 50%, 0.2);
 }
 a {
-	color: hsla(325, 50%, 50%, 0.6);
+	color: hsla(180, 50%, 50%, 0.2);
 	font-family:  sans-serif;
 }
 p {
 	font-size: 25px;
-	color: hsla(320, 50%, 50%, 0.6);
+	color: hsla(180, 50%, 50%, 0.2);
 }
 .intro {
 	grid-column: 1;
 }
 .info {
-	grid-column: 2;
+	grid-column: 3;
 }
