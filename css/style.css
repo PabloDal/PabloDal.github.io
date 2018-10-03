@@ -1,3 +1,8 @@
+.grid {
+  border: 2px blue solid;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
 body {
 	background-color: hsla(225, 100%, 25%, 0.4);
 }
@@ -21,4 +26,10 @@ a {
 }
 p {
 	color: hsla(320, 50%, 50%, 0.6);
+}
+.intro {
+	grid-column: 1;
+}
+.info {
+	grid-column: 2;
 }
