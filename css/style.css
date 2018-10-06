@@ -1,13 +1,14 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
 }
 body {
-	background-color: hsla(0, 0%, 0%, 0.6);
+	background-color: hsla(0, 0%, 0%, 0.8);
 }
 h1 {
-	font-size: 50px;
-	color: hsla(180, 100%, 50%, 0.5);
+	font-size: 60px;
+	color: hsla(180, 100%, 50%, 0.8);
 	font-family:  sans-serif;
 	text-align: center;
 }
@@ -15,37 +16,33 @@ h1 {
 h2 {
 	font-size: 30px;
 	font-style: cursive;
-	color: hsla(180, 100%, 50%, 0.5);
+	color: hsla(180, 100%, 50%, 0.8);
 	font-family:  sans-serif;
 	text-align: center;
 }
 h3 {
 	font-size: 30px;
-	color: hsla(180, 100%, 50%, 0.5);
+	color: hsla(180, 100%, 50%, 0.8);
 	text-align: center;
 }
 a {
-	color: hsla(180, 100%, 50%, 0.5);
+	color: hsla(180, 100%, 50%, 0.8);
 	font-family:  sans-serif;
 	text-align: center;
 }
-p {
-	font-size: 25px;
-	color: hsla(180, 100%, 50%, 0.5);
-	text-align: center;
+
 }
 .intro {
-	grid-column: 1;
-	grid-gap: 50px;
-	align-content: center;
-}
-.info {
-	grid-column: 3;
-	grid-gap: 50px;
-	align-content: center;
-}
-.box {
 	grid-column: 2;
-	background: hsla(0, 0%, 0%, 0.7);
+	grid-row: 2;
+	grid-gap: 50px;
 	align-content: center;
+	z-index: 10;
+}
+.imback {
+	grid-column: 1 / span 2;
+	height: 10px;
+	grid-row: 3;
+	z-index: 20;
+	background-color: hsla(0, 5%, 0%, 0.7);
 }
