@@ -1,2 +1,2 @@
 # PabloDal.github.io
-# Page for model exaple predictions
+# Page for model example predictions
